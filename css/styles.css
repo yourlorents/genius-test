@@ -42,6 +42,8 @@ body {
   margin: 0;
 }
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 * {
@@ -98,6 +100,32 @@ p {
   color: var(--color-brand);
   font-weight: 700;
 }
+/* Header */
+.contact-header {
+  color: var(--color-primary-dark);
+  font-size: 32px;
+}
+.header-containar {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.header-menu {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+.header-contact {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
 /* Hero section */
 .hero-section {
   padding-top: 60px;
@@ -115,6 +143,8 @@ p {
   font-size: 140px;
   font-weight: 700;
   line-height: 0.8;
+  padding-bottom: 40px;
+  margin-bottom: 0;
 }
 .accent {
   color: var(--color-brand);
@@ -122,11 +152,13 @@ p {
 /* Padding section */
 .padding-title {
   color: var(--color-primary-dark);
+  padding-bottom: 16px;
 }
 .padding-title2 {
   color: #4a4a4a;
   font-size: 12px;
   line-height: 1.5;
+  padding-top: 14px;
 }
 .section-title {
   color: var(--color-primary-dark);
@@ -144,6 +176,7 @@ p {
 .about-us-text {
   font-size: 22px;
   line-height: 1.5;
+  padding-bottom: 40px;
 }
 .about-us-section {
   padding-bottom: 176px;
@@ -154,6 +187,7 @@ p {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 /* our procedures-section */
 .procedures-text {
